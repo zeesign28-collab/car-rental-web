@@ -1,0 +1,19 @@
+<body>
+<div class="container">
+  <form class="form glass-card">
+    <h1>Rent Car</h1>
+    <span class="form-title"></span>
+    <input type="text" placeholder="Username" id="username" [formControl]="name" >
+    <input type="password" placeholder="Password" id="password" [formControl]="password">
+    <button (click)="signup()" type="submit">Sign-in</button>
+    <div class="social">
+      <a href="#" class="social-link social-link--go"><i><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org" width="20" height="20" fill="currentColor">
+    <path d="M12.48 10.92v3.28h7.84c-.24 1.84-.908 3.152-1.928 4.176-1.02 1.024-2.6 2.144-5.912 2.144-5.4 0-9.8-4.36-9.8-9.8s4.4-9.8 9.8-9.8c2.928 0 5.144 1.152 6.672 2.592l2.312-2.312C19.168 1.168 16.232 0 12.48 0 5.592 0 0 5.592 0 12.48S5.592 24.96 12.48 24.96c3.752 0 6.576-1.232 8.76-3.52 2.248-2.248 2.96-5.416 2.96-7.92 0-.768-.064-1.488-.184-2.12h-11.536z"/>
+        </svg></i> Google</a>
+      <a href="#" class="social-link social-link--fb"><i><svg fill="currentColor" width="32px" height="32px" viewBox="0 0 24 24" id="facebook" xmlns="http://www.w3.org/2000/svg" class="icon">
+  <path id="primary" d="M14,6h3a1,1,0,0,0,1-1V3a1,1,0,0,0-1-1H14A5,5,0,0,0,9,7v3H7a1,1,0,0,0-1,1v2a1,1,0,0,0,1,1H9v7a1,1,0,0,0,1,1h2a1,1,0,0,0,1-1V14h2.22a1,1,0,0,0,1-.76l.5-2a1,1,0,0,0-1-1.24H13V7A1,1,0,0,1,14,6Z"></path>
+</svg></i> Facebook</a>
+    </div>
+  </form>
+</div>
+</body>
